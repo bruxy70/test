@@ -1,0 +1,5 @@
+{
+  "name": "Garbage Collection",
+  "domains": ["garbage_collection", "sensor"],
+  "iot_class": "Local Push"
+}
