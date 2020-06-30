@@ -28,10 +28,10 @@ The `garbage_collection` component is a Home Assistant custom sensor for monitor
 4. Restart Home Assistant.
 
 ### INSTALLATION VIA HACS
-1. Ensure that [HACS](https://custom-components.github.io/hacs/) is installed.
-2. Search for and install the "Garbage Collection" integration.
-3. Configure the `garbage_collection` sensor.
-4. Restart Home Assistant.
+1. Ensure that [HACS](https://custom-components.github.io/hacs/) is installed
+2. Search for and install the "Garbage Collection" integration
+3. Configure the `garbage_collection` sensor
+4. Restart Home Assistant
 
 ## Configuration
 There are 2 ways to configure the integration:
