@@ -1,10 +1,11 @@
 ```mermaid
-participant A;
-participant B;
-participant C;
-B-->A: start;
-A-->C: check;
-C-->A: finish;
+sequenceDiagram
+  participant A
+  participant B
+  participant C
+  B-->A: start
+  A-->C: check
+  C-->A: finish
 ```
 
 ```mermaid
