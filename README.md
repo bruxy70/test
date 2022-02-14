@@ -10,8 +10,14 @@ C-->A: finish
 ```mermaid
   graph TD;
     A->B
-    B->D
     A->C
-    C -- Yes --> D
-    C -- No --> E
+    B->D
+    C->D
+```
+
+`` mermaid
+  flowchart TD
+    A[Start]-->B[Test];
+    B -- Yes --> D[End]
+    B -- No --> E[Exception]
 ```
